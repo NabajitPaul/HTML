@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Input Tags</title>
+</head>
+<body>
+    <h2>FORMS IN HTML :-</h2>
+    <h4>It is used to collect user input and send to backend for processing of the inout data</h4>
+    
+    <form action="backend.js">
+        <div>                                     <!--"Div" used for division-->
+            </div>Name:<input type="text" name="myName"> <!--the NAME attribute will help to determine the value of the myEmail(here) in the backend-->
+        </div>
+
+        <br>
+
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="text" name="myEmail">
+        </div>
+
+        <br>
+
+        <div>
+           Write About Yourself: <br><textarea name="myTextArea" id="" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+           Date <input type="date" name="myDate" id="">
+        </div>
+
+        <br>
+
+        <div>
+           What is the color: <input type="color" name="myColor" id="">
+        </div>
+
+        <br>
+
+        <div>
+            Are You Eligible:<input type="checkbox" name="myEligibility" id="">
+        </div>
+
+        <br>
+
+        <div>
+            Write Your Password:<input type="password" name="myPassword" id=""> 
+        </div>
+
+        <br>
+
+        <div>
+            Search:<input type="search" name="mySearch" id="">
+        
+        </div>
+
+        <br>
+
+        <div>
+            Number Range:<input type="number" name="myNumberRange" id="">
+        </div>
+
+        <br>
+
+        <div>
+            Gender: Male<input type="radio" name="myGender" > Female <input type="radio" name="myGender" id="">
+            Other <input type="radio" name="myGender" id=""> 
+        </div> <!--Only one can select because same name is given for the backend processing-->
+
+        <br>
+
+        <div>
+            <label for="Car">Car :</label>
+            <select name="myCar" id="Car">
+                    <option value="BMW">BMW</option>
+                    <option value="Lamborghini">Lambo</option>
+                    <option value="Mercedes">Mercedes</option>
+            </select>
+        </div>
+
+        <br>      
+
+        <div>
+            <input type="submit" value="Submit Now"><input type="reset" value="Reset Now">
+        </div>
+                
+                
+    </form>
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
